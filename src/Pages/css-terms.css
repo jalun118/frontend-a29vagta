@@ -1,0 +1,4 @@
+.terms > ul {
+  @apply ml-7 my-2;
+  list-style: disc;
+}

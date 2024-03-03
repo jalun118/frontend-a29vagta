@@ -1,0 +1,11 @@
+.item-team:first-child {
+  @apply w-full align-middle px-4 py-2 border-b border-gray-500 rounded-t-lg dark:border-gray-600;
+}
+
+.item-team {
+  @apply w-full align-middle px-4 py-2 border-b border-gray-500 dark:border-gray-600;
+}
+
+.item-team:last-child {
+  @apply w-full align-middle px-4 py-2 border-b border-gray-500 rounded-b-lg dark:border-gray-600;
+}

@@ -1,0 +1,37 @@
+.header-nav {
+  @apply bg-white
+}
+
+.header-nav.index-home {
+  @apply dark:bg-transparent
+}
+
+.header-nav ul .navlink.active {
+  @apply bg-primary text-white hover:bg-teal-600 active:bg-teal-700;
+}
+
+.header-nav ul .navlink {
+  @apply hover:text-white
+}
+
+.header-nav.index-home.scroll .navlink.active{
+  @apply bg-primary text-white hover:bg-teal-600 active:bg-teal-700
+}
+
+
+.header-nav.scroll {
+  @apply bg-white text-gray-800 bg-opacity-30 dark:bg-opacity-40 lg:dark:text-white dark:bg-gray-800;
+  backdrop-filter: blur(10px);
+}
+
+.header-nav.index-home.scroll .navlink{
+  @apply text-black dark:text-black dark:lg:text-white
+}
+
+.header-nav .navlink {
+  @apply text-black dark:text-black dark:lg:text-white
+}
+
+.header-nav.index-home .navlink {
+  @apply dark:text-dark
+}

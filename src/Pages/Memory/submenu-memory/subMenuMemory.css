@@ -1,0 +1,3 @@
+.submenu-memory.active {
+  @apply border-b-blue-700
+}

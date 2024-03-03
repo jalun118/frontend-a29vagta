@@ -1,0 +1,8 @@
+# https://www.robotstxt.org/robotstxt.html
+# ngapain bro kesini
+# liat dari ig, youtube, tiktok ya?
+# balik ke halaman awal aja bro
+# []~(￣▽￣)~*
+
+User-agent: *
+Disallow:
