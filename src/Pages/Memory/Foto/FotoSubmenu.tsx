@@ -31,7 +31,7 @@ export default function FotoSubmenu() {
       <Card
         key={i}
         id={idx.id_build}
-        thumbnail={idx.link_foto}
+        thumbnail={"https://backend-a29vagta.vercel.app/proxy?img=" + encodeURIComponent("https://drive.google.com/uc?export=download&id=" + idx.id_foto)}
         title={idx.judul}
         describe={idx.deskripsi} date={idx.createdAt}
         linkDownload={idx.link_download_foto}

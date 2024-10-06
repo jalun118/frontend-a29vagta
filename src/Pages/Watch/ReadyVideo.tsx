@@ -15,8 +15,8 @@ export default function ReadyVideo({ Data }: { Data: any; }) {
     return (
       <>
         <div className="max-w-[100%] lg:max-w-[70%] lg:min-w-[50%] md:mx-5 md:mr-8 md:mb-4 mb-3 ">
-          <video className="bg-cover w-[100%] bg-gray-400 dark:bg-gray-700" poster={"https://drive.google.com/uc?id=" + Data.id_thumb} controls controlsList="nodownload">
-            <source src={Data.link_video}></source>
+          <video className="bg-cover w-[100%] bg-gray-400 dark:bg-gray-700" poster={"https://backend-a29vagta.vercel.app/proxy?img=" + encodeURIComponent("https://drive.google.com/uc?export=download&id=" + Data.id_thumb)} controls controlsList="nodownload">
+            <source src={"https://backend-a29vagta.vercel.app/proxy?img=" + encodeURIComponent(Data.link_video)}></source>
           </video>
           <div className="md:pb-5 md:pt-2 px-4 pt-2 pb-4 md:px-0 bg-white dark:bg-opacity-20 md:bg-transparent md:dark:bg-transparent bg-opacity-40 dark:bg-gray-700">
             <h5 className="font-sans mb-1 text-lg sm:text-xl md:text-2xl tracking-normal font-semibold text-gray-900 dark:text-white">

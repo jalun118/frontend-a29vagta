@@ -13,7 +13,7 @@ export default function VideoSubMenu() {
     return (
       <CardLink
         key={i}
-        thumbnail={"https://drive.google.com/uc?id=" + idx.id_thumb}
+        thumbnail={"https://backend-a29vagta.vercel.app/proxy?img=" + encodeURIComponent("https://drive.google.com/uc?export=download&id=" + idx.id_thumb)}
         title={idx.judul}
         date={idx.createdAt}
         to={"/watch?v=" + idx.id_build}

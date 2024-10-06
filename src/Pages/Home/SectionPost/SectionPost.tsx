@@ -45,7 +45,7 @@ function SectionPost({ GetLatestPost }: SectionPostProps) {
             className="grid gap-4 grid-cols-2 md:gap-6 lg:grid-cols-3 lg:max-w-screen-lg min-h-[70vh]">
             {GetLatestPost.map((i, idx) => {
               return (
-                <CardHomeMobile to={"/memory#" + i.id_build} image={i.link_foto} title={i.judul} key={idx} />
+                <CardHomeMobile to={"/memory#" + i.id_build} image={"https://backend-a29vagta.vercel.app/proxy?img=" + encodeURIComponent("https://drive.google.com/uc?export=download&id=" + i.id_foto)} title={i.judul} key={idx} />
               );
             })}
           </div>) : (
